@@ -1,0 +1,23 @@
+{
+  "name": "protobug",
+  "version": "0.9.0",
+  "homepage": "https://github.com/jackwakefield/protobug",
+  "authors": [
+    "Jack Wakefield <jackwakefield91@gmail.com>"
+  ],
+  "description": "A debugger for WebSockets using Protobuf structures",
+  "license": "Apachev2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.24",
+    "protobuf": "~3.6.0",
+    "flatstrap3": "~3.0.3"
+  }
+}

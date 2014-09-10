@@ -1,0 +1,23 @@
+{
+  "name": "protobug",
+  "version": "0.9.0",
+  "description": "A debugger for WebSockets using Protobuf structures",
+  "main": "index.js",
+  "dependencies": {
+    "hexdump": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackwakefield/protobug.git"
+  },
+  "author": "Jack Wakefield",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/jackwakefield/protobug/issues"
+  },
+  "homepage": "https://github.com/jackwakefield/protobug"
+}
