@@ -13,7 +13,8 @@
     "gulp-ruby-sass": "git://github.com/sindresorhus/gulp-ruby-sass#0b6259509768520af7ec00e3805cce2595abb8b0",
     "gulp-sourcemaps": "^1.1.4",
     "gulp-traceur": "^0.13.0",
-    "gulp-watch": "^0.7.0"
+    "gulp-watch": "^0.7.0",
+    "require-dir": "^0.1.0"
   },
   "devDependencies": {},
   "scripts": {
