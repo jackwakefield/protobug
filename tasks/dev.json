@@ -31,7 +31,7 @@
                 "./bower_components/long/dist/Long.js",
                 "./bower_components/protobuf/dist/ProtoBuf.js",
                 "./bower_components/jquery/dist/jquery.js",
-                "./bower_components/flatstrap3/dist/js/bootstrap.js",
+                "./bower_components/bootstrap/dist/js/bootstrap.js",
                 "./node_modules/hexdump/src/hexdump.js",
                 "./bower_components/angular-local-storage/angular-local-storage.js"
             ],
@@ -41,10 +41,10 @@
         },
         "css": {
             "vendor": [
-                "./bower_components/flatstrap3/dist/css/bootstrap.css",
-                "./bower_components/flatstrap3/dist/css/bootstrap.css.map",
-                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css",
-                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css.map"
+                "./bower_components/bootstrap/dist/css/bootstrap.css",
+                "./bower_components/bootstrap/dist/css/bootstrap.css.map",
+                "./bower_components/bootstrap/dist/css/bootstrap-theme.css",
+                "./bower_components/bootstrap/dist/css/bootstrap-theme.css.map"
             ],
             "src": [
             ]
@@ -57,7 +57,7 @@
         },
         "fonts": {
             "src": [
-                "./bower_components/flatstrap3/dist/fonts/**"
+                "./bower_components/bootstrap/dist/fonts/**"
             ]
         },
         "jade": {
