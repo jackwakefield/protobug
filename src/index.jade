@@ -1,0 +1,39 @@
+//
+    Copyright 2014 Jack Wakefield
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    base(href="/")
+    title ProtoBug - Debug WebSockets using ProtoBuf structures
+    link(href="/vendor/bootstrap.css", rel="stylesheet")
+    link(href="/vendor/bootstrap-theme.css", rel="stylesheet")
+    link(href="/app.css", rel="stylesheet")
+    script(src="/vendor/angular.js")
+    script(src="/vendor/traceur-runtime.js")
+    script(src="/vendor/es6-module-loader.js")
+    script(src="/vendor/system.js")
+    script(src="/vendor/ByteBufferAB.js")
+    script(src="/vendor/Long.js")
+    script(src="/vendor/ProtoBuf.js")
+    script(src="/vendor/jquery.js")
+    script(src="/vendor/bootstrap.js")
+    script(src="/vendor/hexdump.js")
+  body(ng-controller="AppController")
+    script.
+      System.import('app').then(function() {
+        angular.bootstrap(document, ['app']);
+      }).catch(console.error.bind(console));
