@@ -41,7 +41,9 @@
         "css": {
             "vendor": [
                 "./bower_components/flatstrap3/dist/css/bootstrap.css",
-                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css"
+                "./bower_components/flatstrap3/dist/css/bootstrap.css.map",
+                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css",
+                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css.map"
             ],
             "src": [
             ]
