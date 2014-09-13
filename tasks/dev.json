@@ -1,0 +1,65 @@
+{
+    "paths": {
+        "dest": "./dev",
+        "js": {
+            "vendor": "./dev/vendor",
+            "dest": "./dev"
+        },
+        "css": {
+            "vendor": "./dev/vendor",
+            "dest": "./dev",
+            "sourcemaps": "./dev/maps"
+        },
+        "images": {
+            "dest": "./dev/images"
+        },
+        "fonts": {
+            "dest": "./dev/fonts"
+        },
+        "jade": {
+            "dest": "./dev"
+        }
+    },
+    "files": {
+        "js": {
+            "vendor": [
+                "./bower_components/angular/angular.js",
+                "./bower_components/traceur-runtime/traceur-runtime.js",
+                "./bower_components/es6-module-loader/dist/es6-module-loader.js",
+                "./bower_components/system.js/dist/system.js",
+                "./bower_components/bytebuffer/dist/ByteBufferAB.js",
+                "./bower_components/long/dist/Long.js",
+                "./bower_components/protobuf/dist/ProtoBuf.js",
+                "./bower_components/flatstrap3/dist/js/bootstrap.js",
+                "./node_modules/hexdump/src/hexdump.js"
+            ],
+            "src": [
+                "./src/**/*.js"
+            ]
+        },
+        "css": {
+            "vendor": [
+                "./bower_components/flatstrap3/dist/css/bootstrap.css",
+                "./bower_components/flatstrap3/dist/css/bootstrap-theme.css"
+            ],
+            "src": [
+            ]
+        },
+        "sass": {
+            "watch": [
+                "./src/**/*.scss"
+            ],
+            "src": "./src/app.scss"
+        },
+        "fonts": {
+            "src": [
+                "./bower_components/flatstrap3/dist/fonts/**"
+            ]
+        },
+        "jade": {
+            "src": [
+                "./src/**/*.jade"
+            ]
+        }
+    }
+}
