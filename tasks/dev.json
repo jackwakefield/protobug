@@ -30,6 +30,7 @@
                 "./bower_components/bytebuffer/dist/ByteBufferAB.js",
                 "./bower_components/long/dist/Long.js",
                 "./bower_components/protobuf/dist/ProtoBuf.js",
+                "./bower_components/jquery/dist/jquery.js",
                 "./bower_components/flatstrap3/dist/js/bootstrap.js",
                 "./node_modules/hexdump/src/hexdump.js"
             ],
