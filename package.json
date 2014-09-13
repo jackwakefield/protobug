@@ -4,7 +4,16 @@
   "description": "A debugger for WebSockets using Protobuf structures",
   "main": "index.js",
   "dependencies": {
-    "hexdump": "^0.1.0"
+    "hexdump": "^0.1.0",
+    "gulp": "^3.8.7",
+    "gulp-connect": "^2.0.6",
+    "gulp-jade": "^0.7.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-ruby-sass": "git://github.com/sindresorhus/gulp-ruby-sass#0b6259509768520af7ec00e3805cce2595abb8b0",
+    "gulp-sourcemaps": "^1.1.4",
+    "gulp-traceur": "^0.13.0",
+    "gulp-watch": "^0.7.0"
   },
   "devDependencies": {},
   "scripts": {

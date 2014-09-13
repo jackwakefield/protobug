@@ -18,6 +18,9 @@
   "dependencies": {
     "angular": "~1.2.24",
     "protobuf": "~3.6.0",
-    "flatstrap3": "~3.0.3"
+    "flatstrap3": "~3.0.3",
+    "es6-module-loader": "~0.8.2",
+    "traceur-runtime": "~0.0.58",
+    "system.js": "~0.8.1"
   }
 }
