@@ -15,5 +15,5 @@
 
 import {AppController} from './app-controller';
 
-let app = angular.module('app', [])
+let app = angular.module('app', ['LocalStorageModule'])
     .controller('AppController', ['$scope', AppController]);
